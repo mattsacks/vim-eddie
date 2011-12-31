@@ -1,5 +1,4 @@
-Eddie.vim
-----------
+#Eddie.vim
 
 A dark pastel colorscheme my friend spent too much time on.
 
@@ -17,13 +16,15 @@ highlighting for diffing between files in Vim.
 ###Screenshots
 
 
-![**HTML**](http://f.cl.ly/items/2y1I3j1N0m3p3s1B3X1J/eddie-html.png)
+**HTML**  
+![HTML](http://f.cl.ly/items/2y1I3j1N0m3p3s1B3X1J/eddie-html.png)
 
-![**CSS**](http://f.cl.ly/items/0Q1O1Z1P3X1R0z0c0j2J/eddie-css.png)
+**CSS**  
+![CSS](http://f.cl.ly/items/0Q1O1Z1P3X1R0z0c0j2J/eddie-css.png)
 
-![**JavaScript**](http://f.cl.ly/items/2p0u253d2p3g0u1X1a0m/eddie-js.png)
+**JavaScript**  
+![JavaScript](http://f.cl.ly/items/2p0u253d2p3g0u1X1a0m/eddie-js.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 _font used is [liberation sans mono](https://fedorahosted.org/liberation-fonts/)_
 
 ------
