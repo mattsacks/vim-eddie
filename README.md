@@ -63,7 +63,7 @@ responsibility for things malfunctioning if you decide to use them.
 * *How do I get the highlight group for a word?*
 
 Add [this command](https://gist.github.com/1544768) to your .vimrc and use it
-as`:Syn` for the word under the cursor.
+as `:Syn` for the word under the cursor.
 
 * *I don't like what you did for \<insert some tag in some language here\>*  
 
