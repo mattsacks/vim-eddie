@@ -239,7 +239,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   fun <SID>X(group, fg, bg, attr)
     if a:fg != ""
       " there's no green in 256 that looks like s:green
-      if !has("gui_running") && a:fg == s:green " && &t_Co == 256  
+      if !has("gui_running") && a:fg == s:green
         exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=010"
       else
         exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=" . <SID>rgb(a:fg)
@@ -386,7 +386,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
   " Diff Highlighting
   call <SID>X("DiffAdd", "", s:diff_green, "")
+  call <SID>X("diffAdded", s:green, "", "")
   call <SID>X("DiffDelete", s:diff_blue, s:diff_red, "")
+  call <SID>X("diffRemoved", s:red, "", "")
   call <SID>X("DiffChange", "", s:diff_orange, "")
   call <SID>X("DiffText", "", s:diff_blue, "")
 
