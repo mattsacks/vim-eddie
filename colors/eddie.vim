@@ -274,6 +274,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("MatchParen", "", s:selection, "")
   call <SID>X("Folded", s:comment, s:background, "")
   call <SID>X("FoldColumn", "", s:background, "")
+  call <SID>X("WildMenu", s:background, s:foreground, "")
   if version >= 700
     call <SID>X("CursorLine", "", s:cursorline, "none")
     call <SID>X("Cursor", "", s:line, "none")
