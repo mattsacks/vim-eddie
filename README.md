@@ -2,16 +2,12 @@
 
 A dark pastel colorscheme my friend spent too much time on.
 
------
-
 ###Compatibility
 
 This colorscheme is compatable in GUI and Terminal Vim. It includes some
 modified color highlighting for the following filetypes: HTML, CSS, JavaScript,
 HAML, SASS, CoffeeScript, Ruby, ZSH, and a couple others. Also includes better
 highlighting for diffing between files in Vim.
-
------
 
 ###Screenshots
 
@@ -27,14 +23,10 @@ highlighting for diffing between files in Vim.
 
 _font used is [liberation sans mono](https://fedorahosted.org/liberation-fonts/)_
 
-------
-
 ###Installation
 
 Add the `eddie.vim` file inside the `colors` directory to your existing
 colorschemes in `~/.vim/colors/`
-
-------
 
 ###Story
 
@@ -42,8 +34,6 @@ A buddy of mine spent a lot of time on [his Eclipse color
 theme](http://www.eclipsecolorthemes.org/?view=theme&id=738) and I was
 continually frustrated with most Vim colorschemes so I just ported his but added
 some new colors for diffing.
-
------
 
 ###FAQ
 
