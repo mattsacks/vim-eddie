@@ -47,8 +47,8 @@ to that hex code.
 
 * *My JavaScript doesn't look like that*
 
-Sometimes I mess around in syntax files.  They're [on
-Github](http://github.com/mattsa/dotfiles/vimbundles) but I won't take any
+Sometimes I mess around in syntax files. It's [on
+Github](https://github.com/mattsa/vim-javascript) but I won't take any
 responsibility for things malfunctioning if you decide to use them.
 
 * *How do I get the highlight group for a word?*
