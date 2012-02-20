@@ -238,9 +238,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   " Sets the highlighting for the given group
   fun <SID>X(group, fg, bg, attr)
     if a:fg != ""
-      " there's no green in 256 that looks like s:green
       if !has("gui_running") && a:fg == s:green
-        exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=010"
+        exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=151"
+      elseif !has("gui_running") && a:fg == s:green
+        exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=140"
+      elseif !has("gui_running") && a:fg == s:aqua
+        exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=110"
       else
         exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=" . <SID>rgb(a:fg)
       endif

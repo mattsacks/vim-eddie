@@ -37,14 +37,6 @@ some new colors for diffing.
 
 ###FAQ
 
-* *The green color in my terminal sucks*
-
-There's no green in the 256 palette that looks like `#93C79F` so I defaulted it
-to cterm's greencode 10. One way to get this to look very similar is to
-[change your terminal's
-green](http://f.cl.ly/items/0l2M2R010d2b3c2a0A0T/Screen%20Shot%202011-12-29%20at%209.28.41%20PM.png)
-to that hex code.
-
 * *My JavaScript doesn't look like that*
 
 Sometimes I mess around in syntax files. It's [on
